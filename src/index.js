@@ -4,7 +4,7 @@ import express,{ json } from "express";
 import cors  from "cors";
 export const app = express();
 import bodyParser from 'body-parser';
-import { create } from "../server/src/router/router.js";
+import { create } from "./router/router.js";
 //aca las uso
 app.use(cors());
 app.use(json());
